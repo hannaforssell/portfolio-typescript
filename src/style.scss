@@ -1,0 +1,53 @@
+:root {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #F5F5F5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+  border-bottom: 1px solid #2F4F4F;
+  padding: 10px;
+  font-size: 3rem;
+  margin-top: 50px;
+  color: #2F4F4F;
+
+  .navbar-intro {
+    font-weight: 400;
+
+    .material-symbols-outlined {
+      font-size: 3rem;
+    }
+  }
+
+  .navbar-links {
+    font-weight: 300;
+
+    .nav-link {
+      margin: 15px;
+      text-decoration: none;
+    }
+
+    .nav-link:visited {
+      color: inherit;
+    }
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+}
