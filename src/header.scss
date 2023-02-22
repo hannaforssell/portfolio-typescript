@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    padding: 10px;
+    font-size: 3rem;
+    margin-top: 50px;
+    color: #2F4F4F;
+  
+    .navbar-intro {
+      font-weight: 400;
+  
+      .material-symbols-outlined {
+        font-size: 3rem;
+      }
+    }
+  
+    .navbar-links {
+      font-weight: 300;
+  
+      .nav-link {
+        margin: 15px;
+        text-decoration: none;
+      }
+  
+      .nav-link:visited {
+        color: inherit;
+      }
+      .nav-link:hover {
+        text-decoration: underline;
+      }
+    }
+  }
