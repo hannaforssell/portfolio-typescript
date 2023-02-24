@@ -21,5 +21,12 @@
   border: 1px solid #2F4F4F;
 }
 
+.headings::before {
+  content: '< ';
+}
+.headings::after {
+  content: ' >';
+}
+
 @media (prefers-color-scheme: light) {
 }

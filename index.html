@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
 
+    <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+    <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+    <link rel="stylesheet" href="url-to-cdn/splide.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
@@ -30,14 +34,33 @@
     <hr class="divider">
 
     <section class="about-me" id="aboutMe">
-      <h3 class="about-me-heading">About me</h3>
+      <h3 class="about-me-heading headings">About me</h3>
       <div class="about-me-text-container">
         <span class="about-me-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</span>
       </div>
     </section>
 
     <hr class="divider">
+
+
+    <section class="splide" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="/mall.PNG">
+          </li>
+          <li class="splide__slide">
+            <img src="/mall.PNG">
+          </li>
+          <li class="splide__slide">
+            <img src="/mall.PNG">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="divider">
     
-    <script type="module" src="./ts/main.ts"></script>
+    <script type="module" src="./src/ts/main.ts"></script>
   </body>
 </html>
